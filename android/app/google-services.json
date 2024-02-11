@@ -1,0 +1,49 @@
+{
+    "project_info": {
+        "project_number": "219810447668",
+        "firebase_url": "https://aibot-admin-default-rtdb.asia-southeast1.firebasedatabase.app",
+        "project_id": "aibot-admin",
+        "storage_bucket": "aibot-admin.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:219810447668:android:635d2c66ddbcfe4ee62561",
+            "android_client_info": {
+                "package_name": "com.caris.aibot"
+            }
+        },
+        "oauth_client": [{
+                "client_id": "219810447668-lqh6njdfmdu7b76ep76auogm8a4bavtf.apps.googleusercontent.com",
+                "client_type": 1,
+                "android_info": {
+                    "package_name": "com.caris.aibot",
+                    "certificate_hash": "6640e2016375d532586848312f5baf1e98672ea0"
+                }
+            },
+            {
+                "client_id": "219810447668-dte9po3iadnn248go0blpcrk6hu8oggp.apps.googleusercontent.com",
+                "client_type": 3
+            }
+        ],
+        "api_key": [{
+            "current_key": "AIzaSyA84s-U0ThsuAJO6gTUZvgCLxEaVk5NPbw"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                        "client_id": "219810447668-dte9po3iadnn248go0blpcrk6hu8oggp.apps.googleusercontent.com",
+                        "client_type": 3
+                    },
+                    {
+                        "client_id": "219810447668-ul3ub0q67hbnrou36grd6ifnlaq3p4iv.apps.googleusercontent.com",
+                        "client_type": 2,
+                        "ios_info": {
+                            "bundle_id": "com.caris.aibot"
+                        }
+                    }
+                ]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
