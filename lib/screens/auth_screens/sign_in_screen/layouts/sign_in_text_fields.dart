@@ -97,54 +97,54 @@ class SignInTextField extends StatelessWidget {
             const SizedBox(
               height: Sizes.s22,
             ),
-            Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-             Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.white,
-                  width: 2,
-                ) ,
-                borderRadius: BorderRadius.circular(
-                  12,
-                ),
-              ),
-                child: CommonSocialLogin(
-                    image: eSvgAssets.google,
-                    name: appFonts.google,
-                    onTap: () => signInCtrl.signInWithGoogle()),
-              ),
-              Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.white,
-                  width: 2,
-                ) ,
-                borderRadius: BorderRadius.circular(
-                  12,
-                ),
-              ),
-                child: CommonSocialLogin(
-                    image: eSvgAssets.mobile,
-                    name: appFonts.phone,
-                    onTap: () => Get.toNamed(routeName.mobileLogin)),
-              ),
-              if (Platform.isIOS)
-                Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Colors.white,
-                  width: 2,
-                ) ,
-                borderRadius: BorderRadius.circular(
-                  12,
-                ),
-              ),
-                  child: CommonSocialLogin(
-                      image: eSvgAssets.apple,
-                      name: appFonts.apple,
-                      onTap: () => signInCtrl.signInWithApple()),
-                )
-            ])
+            // Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+            //  Container(
+            //   decoration: BoxDecoration(
+            //     border: Border.all(
+            //       color: Colors.white,
+            //       width: 2,
+            //     ) ,
+            //     borderRadius: BorderRadius.circular(
+            //       12,
+            //     ),
+            //   ),
+            //     child: CommonSocialLogin(
+            //         image: eSvgAssets.google,
+            //         name: appFonts.google,
+            //         onTap: () => signInCtrl.signInWithGoogle()),
+            //   ),
+            //   Container(
+            //   decoration: BoxDecoration(
+            //     border: Border.all(
+            //       color: Colors.white,
+            //       width: 2,
+            //     ) ,
+            //     borderRadius: BorderRadius.circular(
+            //       12,
+            //     ),
+            //   ),
+            //     child: CommonSocialLogin(
+            //         image: eSvgAssets.mobile,
+            //         name: appFonts.phone,
+            //         onTap: () => Get.toNamed(routeName.mobileLogin)),
+            //   ),
+            //   if (Platform.isIOS)
+            //     Container(
+            //   decoration: BoxDecoration(
+            //     border: Border.all(
+            //       color: Colors.white,
+            //       width: 2,
+            //     ) ,
+            //     borderRadius: BorderRadius.circular(
+            //       12,
+            //     ),
+            //   ),
+            //       child: CommonSocialLogin(
+            //           image: eSvgAssets.apple,
+            //           name: appFonts.apple,
+            //           onTap: () => signInCtrl.signInWithApple()),
+            //     )
+            // ])
           ],
         );
       },

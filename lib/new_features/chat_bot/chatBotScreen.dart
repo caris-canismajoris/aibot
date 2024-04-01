@@ -28,6 +28,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
 
   @override
   Widget build(BuildContext context) {
+    Get.put(HomeController());
     return GetBuilder<ChatLayoutController>(builder: (context) {
       return DirectionalityRtl(
         child: Scaffold(
@@ -135,7 +136,8 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
                                   .collection("chats")
                                   .add({
                                 'userId': user.uid,
-                                'avatar': appCtrl.selectedCharacter["image"],
+                                // 'avatar': appCtrl.selectedCharacter["image"],
+                                'avatar': appCtrl.selectedCharacter?["image"] ?? "",
                                 "characterId": appCtrl.selectedCharacter["id"],
                                 'message': searchedText,
                                 'chatId': chatId,
